@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:10-alpine
 RUN npm install -g pouchdb-server
 WORKDIR /app
 CMD ./start.sh
