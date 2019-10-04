@@ -1,0 +1,12 @@
+version: '2.4'
+
+services:
+
+  couchdb:
+    build: .
+    ports:
+      - "5656:5984"
+    environment:
+      COUCHUSERNAME: "rrrrr"
+      COUCHPASSW: "ttttt"
+
